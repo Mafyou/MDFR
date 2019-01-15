@@ -1,0 +1,91 @@
+﻿[
+                {
+                    "title": "ONISEP",
+                    "description": "Intranet de l'Onisep sur SharePoint 2013.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "40",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                      {
+                        "name": "Documentation",
+                        "percent": "20",
+                        "progressColor": "progress-bar-info"
+                      },
+                        {
+                            "name": "Communication",
+                            "percent": "40",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["Trainings", "Tell technics"],
+                    "period": "10/2014 to 04/2015",
+                    "imgCustomer": "../Content/Images/onisep.png",
+                    "imgFirm": "../Content/Images/hawaii.jpg"
+                },
+                {
+                    "title": "SAFRAN : Installation",
+                    "description": "Installation automatique de SharePoint pour la partie Apps.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "100",
+                            "progressColor": "progress-bar-success"
+
+                        }
+                    ],
+                    "technics": ["Powershell", "XML"],
+                    "period": "07/2014",
+                    "imgCustomer": "../Content/Images/safran.png",
+                    "imgFirm": "../Content/Images/hawaii.jpg"
+                },
+                {
+                    "title": "Eurovia",
+                    "description": "Evolution On Demand - EOD",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "80",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                        {
+                            "name": "Documentation",
+                            "percent": "10",
+                            "progressColor": "progress-bar-info"
+                        },
+                        {
+                            "name": "Communication",
+                            "percent": "10",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["WebParts", "Workflow"],
+                    "period": "04/2014",
+                    "imgCustomer": "../Content/Images/eurovia.png",
+                    "imgFirm": "../Content/Images/hawaii.jpg"
+                },
+                {
+                    "title": "SemPariScene",
+                    "description": "Mise en place de statistiques personnalisées.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "90",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                        {
+                            "name": "Communication",
+                            "percent": "10",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["WebParts", "JavaScript", "jQuery"],
+                    "period": "05/2014",
+                    "imgCustomer": "../Content/Images/sempariscene.jpeg",
+                    "imgFirm": "../Content/Images/hawaii.jpg"
+                }
+            ]

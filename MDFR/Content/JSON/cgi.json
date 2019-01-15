@@ -1,0 +1,54 @@
+﻿  [
+    {
+      "title": "Ministère de la Défense: BdRH",
+      "description": "<p>Intranet visant à afficher les données extraites de leurs outils.</p>",
+      "skills": [
+        {
+          "name": "SharePoint",
+          "percent": "60",
+          "progressColor": "progress-bar-success"
+
+        },
+        {
+          "name": "Documentation",
+          "percent": "20",
+          "progressColor": "progress-bar-info"
+        },
+        {
+          "name": "Communication/Formation",
+          "percent": "20",
+          "progressColor": "progress-bar-info"
+        }
+      ],
+      "technics": [ "WebParts", "Application Page", "Packaging", "Architecture", "Timer Jobs" ],
+      "period": "05/2015 to 11/2017",
+      "imgCustomer": "../Content/Images/ladef.jpg",
+      "imgFirm": "../Content/Images/cgi.png"
+    },
+    {
+      "title": "Ministère de l'éducation & de la recherche : Pléiade",
+      "description": "<p>Pléiade est un intranet/extranet du ministère.</p><p>Ce portail offre une organisation de l'information par profession ou par structure. Portail utilisant le S.S.O.",
+      "skills": [
+        {
+          "name": "SharePoint",
+          "percent": "80",
+          "progressColor": "progress-bar-success"
+
+        },
+        {
+          "name": "Documentation",
+          "percent": "15",
+          "progressColor": "progress-bar-info"
+        },
+        {
+          "name": "Communication",
+          "percent": "5",
+          "progressColor": "progress-bar-info"
+        }
+      ],
+      "technics": [ "WebParts", "Application Page", "Event Receiver", "Timer Jobs", "Packaging", "Custom Forms", "How to", "Describe", "Tell" ],
+      "period": "06/2015 to 01/2017",
+      "imgCustomer": "../Content/Images/educ.png",
+      "imgFirm": "../Content/Images/cgi.png"
+    }
+  ]

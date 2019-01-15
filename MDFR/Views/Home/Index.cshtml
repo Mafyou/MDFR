@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Mathieu Dupleix";
+}
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-2" style="text-align:center">
+            <img src="~/Content/Images/logo.jpg" height="100" />
+            <br />
+            <i class="fa fa-at"></i><a href="mailto:mdupleix@hotmail.com">Contact</a>
+        </div>
+        <div id="banner" class="col-md-8 rounded">
+            <p>Mathieu Dupleix</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <nav class="nav nav-pills flex-column flex-sm-row" role="tablist">
+        <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" role="tab" id="missions-tab" href="#missions" aria-selected="true">MISSIONS</a>
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" role="tab" id="about-tab" href="#about" aria-selected="false">À PROPOS</a>
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" role="tab" id="me-tab" href="#me" aria-selected="false">MOI IRL</a>
+    </nav>
+</div>
+<div class="row tab-content">
+    <div id="missions" class="tab-pane fade show active container" role="tabpanel" ng-app="myApp" ng-controller="MissionsController" aria-labelledby="missions-tab">
+        <br />
+        <a id="astekBtn" class="btn btn-success" data-toggle="collapse" href="#divAstek" role="button" aria-expanded="false" aria-controls="collapseExample" data-parent="#missions">
+            Astek
+        </a>
+        <div class="collapse show" id="divAstek" data-parent="#missions">
+            <section class="mission row astek" ng-repeat="mission in missions.Astek">
+                <div my-Mission></div>
+            </section>
+        </div>
+        <br /><br />
+        <a class="btn btn-danger" data-toggle="collapse" href="#divCGI" role="button" aria-expanded="false" aria-controls="collapseExample">
+            CGI
+        </a>
+        <div class="collapse" id="divCGI" data-parent="#missions">
+            <section class="mission row cgi col-md-6" ng-repeat="mission in missions.CGI">
+                <div my-Mission></div>
+            </section>
+        </div>
+        <br /><br />
+        <a class="btn btn-info" data-toggle="collapse" href="#divHawaii" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Hawaii
+        </a>
+        <div class="collapse" id="divHawaii" data-parent="#missions">
+            <section class="mission row hawaii display-flex" ng-repeat="mission in missions.Hawaii">
+                <div my-Mission></div>
+            </section>
+        </div>
+        <br /><br />
+        <a class="btn btn-success" data-toggle="collapse" href="#divvNext" role="button" aria-expanded="false" aria-controls="collapseExample">
+            vNext
+        </a>
+        <div class="collapse" id="divvNext" data-parent="#missions">
+            <section class="mission row vnext col-md-6" ng-repeat="mission in missions.vNext">
+                <div my-Mission></div>
+            </section>
+        </div>
+    </div>
+    <div id="about" class="col-md-4 tab-pane fade container" role="tabpanel" aria-labelledby="about-tab">
+        <br />
+        <p>Pour moi, <a href="https://fr.wikipedia.org/wiki/Microsoft_SharePoint" target="_blank">SharePoint</a> est un "gros" <a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu" target="_blank">CMS</a> sur lequel on peut customiser l'expérience utilisateur de différentes manières:</p>
+        <p>Script Editor, WebParts, Application Pages, App customizers, Event Receivers, Workflows et Timer Jobs.</p>
+        <p>Tout ces "gros mots" pour dire que l'on a une multitude de façons de développer sur SharePoint.</p>
+        <p>D'ailleurs, on peut coder en CSOM, jSom, REST & <a href="https://fr.wikipedia.org/wiki/Windows_PowerShell" target="_blank">PowerShell</a>.</p>
+        <p>Et avoir l'aide de <a href="https://fr.wikipedia.org/wiki/Gulp.js" target="_blank">Gulp</a>, <a href="https://fr.wikipedia.org/wiki/Yeoman_(informatique)" target="_blank">Yo</a> pour les développements SharePoint Online.</p>
+        <p>Et enfin, et pas des moindres, l'utilisation de <a href="https://fr.wikipedia.org/wiki/Microsoft_Visual_Studio" target="_blank">Visual Studio</a> & <a href="https://fr.wikipedia.org/wiki/Visual_Studio_Code" target="_blank">Visual Studio Code</a> comme <a href="https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement" target="_blank">IDE</a>.</p>
+        <p>Bien sûr, sur SharePoint Online, les possibilités se réduisent car on ne peut pas faire de code serveur.</p>
+        <p>Les Application pages, les TimerJobs et beaucoup de cmdlet PowerShell n'existent plus.</p>
+    </div>
+    <div id="me" class="col-md-4 tab-pane fade container" role="tabpanel" aria-labelledby="me-tab">
+        <p>
+            Ensuite, j'ai pu développer deux applications Android:
+            <ul>
+                <li><a href="https://play.google.com/store/apps/details?id=com.mafyou.myjetbu&hl=fr" target="_blank">MyJetBu</a> (en Java)</li>
+                <li><a href="https://play.google.com/store/apps/details?id=fr.mafyou.designurcig&hl=fr" target="_blank">Fais ta vape</a> (en Kotlin)</li>
+            </ul>
+        </p>
+        <p>Diplômé de SupInfo en 2012.</p>
+        <p>Voici mon <a href="https://github.com/Mafyou" target="_blank">GitHub</a></p>
+    </div>
+</div>
+@Scripts.Render("~/Scripts/angular.js")
+@Scripts.Render("~/Scripts/angular-sanitize.js")
+@Scripts.Render("~/Scripts/app.js")
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96928725-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96928725-2');
+</script>

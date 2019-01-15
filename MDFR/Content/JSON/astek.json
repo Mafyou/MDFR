@@ -1,0 +1,23 @@
+﻿[
+  {
+    "title": "L'Agence Nationale pour la Rénovation Urbaine",
+    "description": "<p>Intranet pour la numérisation de leurs processus.</p>",
+    "skills": [
+      {
+        "name": "SharePoint",
+        "percent": "80",
+        "progressColor": "progress-bar-success"
+
+      },
+      {
+        "name": "Méthodes Agile",
+        "percent": "20",
+        "progressColor": "progress-bar-info"
+      }
+    ],
+    "technics": [ "Application Page", "Business Objects", "Data Access Layer", "User Control", "Daily Meeting", "VSTS" ],
+    "period": "04/2018 to 11/2018",
+    "imgCustomer": "../Content/Images/anru.jpg",
+    "imgFirm": "../Content/Images/astek.png"
+  }
+]

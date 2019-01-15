@@ -1,0 +1,91 @@
+﻿[
+                {
+                    "title": "ADP - Aéroport De Paris",
+                    "description": "Deux systèmes d'information sont voués à communiquer entre eux afin d'avoir les informations les plus à jours possible.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "80",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                      {
+                        "name": "Documentation",
+                        "percent": "10",
+                        "progressColor": "progress-bar-info"
+                      },
+                        {
+                            "name": "Communication",
+                            "percent": "10",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["WCF in SP", "Data Contracts", "jSon"],
+                    "period": "03/2013 to 04/2014",
+                    "imgCustomer": "../Content/Images/adp.svg",
+                    "imgFirm": "../Content/Images/vnext.png"
+                },
+                {
+                    "title": "SONEPAR",
+                    "description": "Ateliers pour former à leur nouvel intranet.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "20",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                        {
+                            "name": "Communication",
+                            "percent": "80",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["How to"],
+                    "period": "En parallèle",
+                    "imgCustomer": "../Content/Images/sonepar.jpg",
+                    "imgFirm": "../Content/Images/vnext.png"
+                },
+                {
+                    "title": "RTE",
+                    "description": "Migration de SharePoint 2007 à 2010.",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "60",
+                            "progressColor": "progress-bar-success"
+
+                        },
+                        {
+                            "name": "Documentation",
+                            "percent": "20",
+                            "progressColor": "progress-bar-info"
+                        },
+                        {
+                            "name": "Communication",
+                            "percent": "20",
+                            "progressColor": "progress-bar-info"
+                        }
+                    ],
+                    "technics": ["Windows Forms", "CSOM"],
+                    "period": "12/2012",
+                    "imgCustomer": "../Content/Images/rte.png",
+                    "imgFirm": "../Content/Images/vnext.png"
+                },
+                {
+                    "title": "L'Oréal",
+                    "description": "Dashboard SharePoint",
+                    "skills": [
+                        {
+                            "name": "SharePoint",
+                            "percent": "100",
+                            "progressColor": "progress-bar-success"
+
+                        }
+                    ],
+                    "technics": ["Ajax WebParts"],
+                    "period": "11/2012",
+                    "imgCustomer": "../Content/Images/loreal.jpg",
+                    "imgFirm": "../Content/Images/vnext.png"
+                }
+            ]
