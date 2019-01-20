@@ -162,12 +162,14 @@
     <Content Include="Content\Images\anru.jpg" />
     <Content Include="Content\Images\astek.png" />
     <Content Include="Content\Images\avanade.jpg" />
+    <Content Include="Content\Images\axa.png" />
     <Content Include="Content\Images\bg.jpg" />
     <Content Include="Content\Images\cgi.png" />
     <Content Include="Content\Images\educ.png" />
     <Content Include="Content\Images\eurovia.png" />
     <Content Include="Content\Images\favicon.ico" />
     <Content Include="Content\Images\hawaii.jpg" />
+    <Content Include="Content\Images\ideastudio.png" />
     <Content Include="Content\Images\ladef.jpg" />
     <Content Include="Content\Images\logo.jpg" />
     <Content Include="Content\Images\loreal.jpg" />
@@ -224,7 +226,7 @@
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-sanitize.min.js.map" />
     <Content Include="Content\JSON\astek.json" />
-    <None Include="Properties\PublishProfiles\MathieuCV - FTP.pubxml" />
+    <Content Include="Content\JSON\ideastudio.json" />
     <None Include="Properties\PublishProfiles\MathieuCV - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace WebsiteOfMafyou
+namespace MDFR
 {
     public class RouteConfig
     {
@@ -15,6 +15,7 @@ namespace WebsiteOfMafyou
 
             routes.MapRoute(
                 name: "Default",
+                namespaces: new string[] {"MDFR.Controllers"},
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Axa",
+    "description": "<p>Scripts de migration de SharePoint 2010 à 2013.</p>",
+    "skills": [
+      {
+        "name": "SharePoint",
+        "percent": "80",
+        "progressColor": "progress-bar-success"
+
+      },
+      {
+        "name": "Documentation",
+        "percent": "20",
+        "progressColor": "progress-bar-info"
+      }
+    ],
+    "technics": [ "Extract", "Import", "Daily Meeting"],
+    "period": "11/2018 to 02/2019",
+    "imgCustomer": "../Content/Images/axa.png",
+    "imgFirm": "../Content/Images/ideastudio.png"
+  }
+]

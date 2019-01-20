@@ -23,10 +23,19 @@
 <div class="row tab-content">
     <div id="missions" class="tab-pane fade show active container" role="tabpanel" ng-app="myApp" ng-controller="MissionsController" aria-labelledby="missions-tab">
         <br />
+        <a id="ideastudioBtn" class="btn btn-warning" data-toggle="collapse" href="#divIdeaStudio" role="button" aria-expanded="false" aria-controls="collapseExample" data-parent="#missions">
+            IdeaStudio
+        </a>
+        <div class="collapse show" id="divIdeaStudio" data-parent="#missions">
+            <section class="mission row ideastudio" ng-repeat="mission in missions.IdeaStudio">
+                <div my-Mission></div>
+            </section>
+        </div>
+        <br /><br />
         <a id="astekBtn" class="btn btn-success" data-toggle="collapse" href="#divAstek" role="button" aria-expanded="false" aria-controls="collapseExample" data-parent="#missions">
             Astek
         </a>
-        <div class="collapse show" id="divAstek" data-parent="#missions">
+        <div class="collapse" id="divAstek" data-parent="#missions">
             <section class="mission row astek" ng-repeat="mission in missions.Astek">
                 <div my-Mission></div>
             </section>
@@ -71,13 +80,6 @@
         <p>Les Application pages, les TimerJobs et beaucoup de cmdlet PowerShell n'existent plus.</p>
     </div>
     <div id="me" class="col-md-4 tab-pane fade container" role="tabpanel" aria-labelledby="me-tab">
-        <p>
-            Ensuite, j'ai pu développer deux applications Android:
-            <ul>
-                <li><a href="https://play.google.com/store/apps/details?id=com.mafyou.myjetbu&hl=fr" target="_blank">MyJetBu</a> (en Java)</li>
-                <li><a href="https://play.google.com/store/apps/details?id=fr.mafyou.designurcig&hl=fr" target="_blank">Fais ta vape</a> (en Kotlin)</li>
-            </ul>
-        </p>
         <p>Diplômé de SupInfo en 2012.</p>
         <p>Voici mon <a href="https://github.com/Mafyou" target="_blank">GitHub</a></p>
     </div>

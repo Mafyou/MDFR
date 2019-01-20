@@ -3,6 +3,16 @@
 app.controller('MissionsController', ['$scope', '$sce',
     function ContentCtrl($scope, $sce) {
         $scope.missions = {};
+        $scope.missions.IdeaStudio = [];
+        $.getJSON("/Content/JSON/ideastudio.json").done(function (items) {
+            items.forEach(function (item) {
+                item.description = $sce.trustAsHtml(item.description);
+            }, this);
+            $scope.missions.IdeaStudio = items;
+            $scope.$apply();
+        }).fail(function (jqXHR, textStatus, errorThrown) {
+            console.log(textStatus);
+        });
         $scope.missions.Astek = [];
         $.getJSON("/Content/JSON/astek.json").done(function (items) {
             items.forEach(function (item) {
