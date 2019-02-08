@@ -171,9 +171,9 @@
     <Content Include="Content\Images\hawaii.jpg" />
     <Content Include="Content\Images\ideastudio.png" />
     <Content Include="Content\Images\ladef.jpg" />
-    <Content Include="Content\Images\logo.jpg" />
     <Content Include="Content\Images\loreal.jpg" />
     <Content Include="Content\Images\onisep.png" />
+    <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\rte.png" />
     <Content Include="Content\Images\safran.png" />
     <Content Include="Content\Images\sempariscene.jpeg" />
