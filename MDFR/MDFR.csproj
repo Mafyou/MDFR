@@ -228,12 +228,7 @@
     <Content Include="Scripts\angular-sanitize.min.js.map" />
     <Content Include="Content\JSON\astek.json" />
     <Content Include="Content\JSON\ideastudio.json" />
-    <Content Include="Content\imposters_handbook.epub" />
-    <Content Include="Content\imposters_handbook.mobi" />
-    <Content Include="Content\imposters_handbook.pdf" />
-    <None Include="Properties\PublishProfiles\MathieuCV - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\MathieuCV - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\MathieuCV - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
