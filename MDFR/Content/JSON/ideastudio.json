@@ -1,7 +1,28 @@
-[
+﻿[
+  {
+    "title": "UniFormation",
+    "description": "<p>Kanban sur des portails.</p>",
+    "skills": [
+      {
+        "name": "SQL",
+        "percent": "80",
+        "progressColor": "progress-bar-success"
+
+      },
+      {
+        "name": "C#",
+        "percent": "20",
+        "progressColor": "progress-bar-info"
+      }
+    ],
+    "technics": [ "Kanban", "C#", "Procédures stockées" ],
+    "period": "04/2019 to Now",
+    "imgCustomer": "../Content/Images/unif.png",
+    "imgFirm": "../Content/Images/ideastudio.png"
+  },
   {
     "title": "Axa",
-    "description": "<p>Scripts de migration de SharePoint 2010 � 2013.</p>",
+    "description": "<p>Scripts de migration de SharePoint 2010 à 2013.</p>",
     "skills": [
       {
         "name": "SharePoint",
@@ -15,7 +36,7 @@
         "progressColor": "progress-bar-info"
       }
     ],
-    "technics": [ "Extract", "Import", "Daily Meeting"],
+    "technics": [ "Extract", "Import", "Daily Meeting" ],
     "period": "11/2018 to 02/2019",
     "imgCustomer": "../Content/Images/axa.png",
     "imgFirm": "../Content/Images/ideastudio.png"
